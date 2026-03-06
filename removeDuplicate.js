@@ -12,14 +12,6 @@ function RemoveDuplicate(arr) {
   return k;
 }
 
-let arr;
-arr = [0, 1, 1, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 4, 5, 5, 5, 5, 5, 5];
-
-let output;
-output = RemoveDuplicate(arr);
-
-document.getElementById("counter").innerHTML = output;
-
 function removeDuplicates(arr) {
   let k = 1;
 
@@ -31,3 +23,12 @@ function removeDuplicates(arr) {
 
   return k;
 }
+
+let arr;
+arr = [0, 1, 1, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 4, 5, 5, 5, 5, 5, 5];
+
+let output;
+output = removeDuplicates(arr);
+// output = RemoveDuplicate(arr);
+
+document.getElementById("counter").innerHTML = output;
